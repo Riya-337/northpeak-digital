@@ -19,12 +19,12 @@ ul {
     list-style: none;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
     background-color: rgba(10, 113, 108, 0.95);
     position: sticky;
     top: 0;
     z-index: 100;
+    min-height: 60px;
 }
 
 .nav-inner {
@@ -87,7 +87,6 @@ ul {
     display: flex;
 }
 
-/* ===== BUTTONS ===== */
 .btn-primary {
     display: inline-block;
     background-color: rgba(10, 113, 108, 0.9);
@@ -121,7 +120,6 @@ ul {
     background-color: rgba(10, 113, 108, 0.08);
 }
 
-/* ===== HERO ===== */
 .hero {
     text-align: center;
     padding: 80px 40px;
@@ -175,7 +173,6 @@ ul {
     margin-top: 4px;
 }
 
-/* ===== SERVICES ===== */
 .services {
     padding: 70px 40px;
     text-align: center;
@@ -217,6 +214,10 @@ ul {
 .service-card .icon {
     font-size: 1.8rem;
     margin-bottom: 12px;
+    line-height: 1;
+    display: block;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 .service-card h3 {
@@ -232,7 +233,6 @@ ul {
     line-height: 1.6;
 }
 
-/* ===== RESULTS ===== */
 .results {
     background-color: rgba(10, 113, 108, 0.06);
     padding: 70px 40px;
@@ -313,7 +313,6 @@ ul {
     color: rgba(10, 113, 108, 0.9);
 }
 
-/* ===== PRICING ===== */
 .pricing {
     padding: 70px 40px;
     text-align: center;
@@ -407,7 +406,6 @@ ul {
     text-align: center;
 }
 
-/* ===== CONTACT ===== */
 .contact {
     background-color: rgba(10, 113, 108, 0.06);
     padding: 70px 40px;
@@ -498,7 +496,6 @@ ul {
     min-height: 24px;
 }
 
-/* ===== FOOTER ===== */
 .footer {
     background-color: rgba(10, 113, 108, 0.9);
     color: white;
@@ -516,9 +513,6 @@ ul {
     text-decoration: underline;
 }
 
-/* ===== RESPONSIVE ===== */
-
-/* Tablet — 768px */
 @media (max-width: 900px) {
     .nav-inner {
         padding: 16px 24px;
@@ -570,7 +564,6 @@ ul {
     }
 }
 
-/* Mobile — 360px */
 @media (max-width: 560px) {
     .hero {
         padding: 50px 16px;
