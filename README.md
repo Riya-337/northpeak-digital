@@ -77,4 +77,4 @@ Built for **[Digital Heroes Training Task](https://digitalheroesco.com)**
 
 ---
 
-© 2025 NorthPeak Digital
+© 2026 NorthPeak Digital
